@@ -5,7 +5,7 @@ public class HolaMundo {
         System.out.println(saludar);
         System.out.println("saludar.toUpperCase() = " + saludar.toUpperCase());
 
-        int numero = 10;
+        int numero = 11;
 
         System.out.println("numero = " + numero);
 
@@ -18,5 +18,16 @@ public class HolaMundo {
         }
 
         var numero3 = "15";
+
+        String nombre;
+
+        nombre = "Gabriel";
+
+        if(numero>10){
+            nombre = "Antonio";
+        }
+        System.out.println("nombre = " + nombre);
+
+        int edadPersona = 5;
     }
 }
