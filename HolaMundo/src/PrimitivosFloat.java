@@ -15,7 +15,7 @@ public class PrimitivosFloat {
         System.out.println("máximo valor para double = " + Double.MAX_VALUE);
         System.out.println("mínimo valor para double = " + Double.MIN_VALUE);
 
-        float varFlotante = 3,1416F;
+        float varFlotante = 3.1416F;
         System.out.println("varFlotante = " + varFlotante);
     }
 }
