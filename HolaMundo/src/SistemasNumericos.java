@@ -21,8 +21,8 @@ public class SistemasNumericos {
         int numeroBinario = 0b11110;
         System.out.println("numeroBinario = " + numeroBinario);
 
-        String resulradoOctal = "numero octal de " + numeroDecimal + " = " + Integer.toOctalString(numeroDecimal);
-        System.out.println(resulradoOctal);
+        String resultadoOctal = "numero octal de " + numeroDecimal + " = " + Integer.toOctalString(numeroDecimal);
+        System.out.println(resultadoOctal);
         int numeroOctal = 036;
         System.out.println("numeroOctal = " + numeroOctal);
 
@@ -32,7 +32,7 @@ public class SistemasNumericos {
         System.out.println("numeroHex = " + numeroHex);
 
         String mensaje = resultadoBinario;
-        mensaje += "\n" + resulradoOctal;
+        mensaje += "\n" + resultadoOctal;
         mensaje += "\n" + resultadoHex;
 
         JOptionPane.showMessageDialog(null,mensaje);
