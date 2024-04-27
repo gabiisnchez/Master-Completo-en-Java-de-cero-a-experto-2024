@@ -12,5 +12,7 @@ public class EjemploString {
         String curso3 = "Programación Java";
         esIgual = curso == curso3;
         System.out.println("curso == curso3 = " + esIgual);
+
+
     }
 }
