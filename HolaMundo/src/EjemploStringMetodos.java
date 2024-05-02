@@ -1,4 +1,4 @@
-public class EjemploStringMeteodos {
+public class EjemploStringMetodos {
     public static void main(String[] args) {
 
         String nombre = "Gabriel";
