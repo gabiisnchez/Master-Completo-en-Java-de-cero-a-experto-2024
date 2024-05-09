@@ -1,7 +1,7 @@
 public class SentenciaIfElse {
     public static void main(String[] args) {
 
-        float promedio = 3.0f;
+        float promedio = 4.5f;
 
         if (promedio >= 6.5){
             System.out.println("Felicitaciones, excelente promedio!");
@@ -16,7 +16,6 @@ public class SentenciaIfElse {
         } else {
             System.out.println("Reprobado!");
         }
-
         System.out.println("Tu promedio es: " + promedio);
     }
 }
